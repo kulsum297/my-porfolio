@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>My Portfolio | AI & Digital Creative</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header and navigation -->
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">My<span>Portfolio</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a class="button button-small header-cta" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span class="gradient-text">Bibi Kulsum</span></h1>
+          <h2>I'm an <span id="typedRole">Aspiring AI Professional</span><span class="typing-cursor">|</span></h2>
+          <p class="hero-description">
+            I enjoy learning new technologies and creating creative digital solutions
+            through web design, graphic design, and AI-powered content.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">Explore My Work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <!-- Replace # with your real profile links -->
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="GitHub">⌘</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-glow"></div>
+          <div class="photo-frame">
+            <!-- Keep your portrait image in the same folder as this HTML file -->
+            <img src="image/profile-photo.png" alt="Professional portrait" class="profile-photo">
+          </div>
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✦</span>
+            <div><strong>Creative Ideas</strong><small>Turning ideas into digital work</small></div>
+          </div>
+          <div class="floating-card floating-card-bottom">
+            <span class="status-dot"></span>
+            <div><strong>Always Learning</strong><small>Growing my skills every day</small></div>
+          </div>
+          <span class="decor decor-one">✳</span>
+          <span class="decor decor-two">＋</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">Scroll to explore <span>↓</span></a>
+    </section>
+
+    <!-- About section -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-label reveal">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span class="gradient-text">Me</span></h2>
+          <div class="mini-line"></div>
+        </div>
+        <div class="about-content reveal">
+          <p>
+            I am a passionate aspiring AI professional interested in web design,
+            graphic design, and AI-powered content creation. I enjoy learning new
+            technologies and creating creative digital solutions to help businesses grow.
+          </p>
+          <div class="info-grid">
+            <div class="info-item"><span class="info-icon">⌖</span><div><small>Location</small><strong>Bangladesh</strong></div></div>
+            <div class="info-item"><span class="info-icon">✉</span><div><small>Email</small><strong>kumkum9147@gmail.com</strong></div></div>
+            <div class="info-item"><span class="info-icon">◎</span><div><small>Focus</small><strong>AI & Digital Creativity</strong></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHAT I'M LEARNING</p>
+          <h2>My <span class="gradient-text">Skills</span></h2>
+          <p>These are example skills. Update the names and progress levels to match your current experience.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>HTML</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 65%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>CSS</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 55%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>AI Tools</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 70%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>Canva / Design</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 60%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>AI Content Creation</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 65%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading"><span>Responsive Design</span><span>Learning</span></div>
+            <div class="skill-track"><span style="--level: 45%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <p>Add your real projects and links here when they are ready.</p>
+          </div>
+          <div class="project-filters" aria-label="Filter projects">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="web">Web</button>
+            <button class="filter-button" data-filter="ai">AI</button>
+            <button class="filter-button" data-filter="design">Design</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card reveal" data-category="web">
+            <div class="project-art project-art-blue"><span class="art-symbol">&lt;/&gt;</span><span class="art-caption">WEB DESIGN</span></div>
+            <div class="project-body">
+              <p class="project-type">WEB DEVELOPMENT</p>
+              <h3>Responsive Website</h3>
+              <p>A clean, responsive website concept built with HTML and CSS.</p>
+              <a class="text-link" href="file:///D:/html/index.html" ><span>↗</span></a>
+              <img src="image/Black and White Elegant MK Initials Logo.png" alt="">
+
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-art project-art-purple"><span class="art-symbol">✦</span><span class="art-caption">AI CONTENT</span></div>
+            <div class="project-body">
+              <p class="project-type">AI CONTENT CREATION</p>
+              <h3>AI Content Campaign</h3>
+              <p>A sample concept for creating helpful, engaging marketing content with AI tools.</p>
+              <!-- <a class="text-link" href="#contact">Add project link <span>↗</span></a> -->
+                <video width="300" controls>
+     <source src="vidio/_productpromotion_1e18b46b.mp4">
+     </video>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="design">
+            <div class="project-art project-art-orange"><span class="art-symbol">◈</span><span class="art-caption">CREATIVE DESIGN</span></div>
+            <div class="project-body">
+              <p class="project-type">GRAPHIC DESIGN</p>
+              <h3>Social Media Design</h3>
+              <p>A sample social media visual concept for a brand or small business.</p>
+              <!-- <a class="text-link" href="#contact">Add project link <span>↗</span></a> -->
+               <img src="image/AI-Powered Business Solutions Banner (1).png" alt="design">
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">HOW I CAN HELP</p>
+          <h2>My <span class="gradient-text">Services</span></h2>
+          <p>Services I am working towards offering. Edit this section as your skills develop.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal"><span class="service-icon">⌘</span><h3>Web Design</h3><p>Simple, responsive and user-friendly website layouts.</p></article>
+          <article class="service-card reveal"><span class="service-icon">✧</span><h3>AI Content</h3><p>Ideas and drafts for blogs, emails and social media captions.</p></article>
+          <article class="service-card reveal"><span class="service-icon">▧</span><h3>Graphic Design</h3><p>Creative social media graphics and promotional designs.</p></article>
+          <article class="service-card reveal"><span class="service-icon">✦</span><h3>AI-Powered Solutions</h3><p>Exploring AI tools to support everyday business tasks.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+          <h2>Let's create something <span class="gradient-text">great.</span></h2>
+          <p>Have a question or an idea? Send me a message using the form.</p>
+          <div class="contact-detail"><span>✉</span><div><small>Email</small><strong>kumkum9147@gmail.com</strong></div></div>
+          <div class="contact-detail"><span>⌖</span><div><small>Location</small><strong>Bangladesh</strong></div></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <label>Your name<input type="text" name="name" placeholder="Enter your name" required></label>
+            <label>Your email<input type="email" name="email" placeholder="Enter your email" required></label>
+          </div>
+          <label>Subject<input type="text" name="subject" placeholder="What is this about?" required></label>
+          <label>Your message<textarea name="message" rows="5" placeholder="Write your message..." required></textarea></label>
+          <button class="button" type="submit">Prepare Email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote" role="status">This demo opens your email app; it does not send messages directly.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">My<span>Portfolio</span></a>
+      <p>Designed and built with HTML, CSS & JavaScript.</p>
+      <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+    <p class="copyright">© <span id="currentYear"></span> Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
